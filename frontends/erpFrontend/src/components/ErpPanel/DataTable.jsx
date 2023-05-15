@@ -3,11 +3,11 @@ import { Dropdown, Table } from 'antd';
 import { Button, PageHeader } from 'antd';
 import { EllipsisOutlined } from '@ant-design/icons';
 import { useSelector, useDispatch } from 'react-redux';
-import { erp } from '@/redux/erp/actions';
-import { settings } from '@/redux/settings/actions';
-import { selectListItems } from '@/redux/erp/selectors';
-import { useErpContext } from '@/context/erp';
-import uniqueId from '@/utils/uinqueId';
+import { erp } from '../../redux/erp/actions';
+import { settings } from '../../redux/settings/actions';
+import { selectListItems } from '../../redux/erp/selectors';
+import { useErpContext } from '../../context/erp';
+import uniqueId from '../../utils/uinqueId';
 
 import { RedoOutlined, PlusOutlined } from '@ant-design/icons';
 function AddNewItem({ config }) {

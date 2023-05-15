@@ -4,12 +4,12 @@ import dayjs from 'dayjs';
 import { Button, PageHeader, Row, Col, Tag } from 'antd';
 
 import { useSelector, useDispatch } from 'react-redux';
-import { erp } from '@/redux/erp/actions';
+import { erp } from '../../redux/erp/actions';
 
-import { useErpContext } from '@/context/erp';
-import uniqueId from '@/utils/uinqueId';
-import { selectUpdatedItem } from '@/redux/erp/selectors';
-import Loading from '@/components/Loading';
+import { useErpContext } from '../../context/erp';
+import uniqueId from '../../utils/uinqueId';
+import { selectUpdatedItem } from '../../redux/erp/selectors';
+import Loading from '../../components/Loading';
 
 import { CloseCircleOutlined, PlusOutlined } from '@ant-design/icons';
 

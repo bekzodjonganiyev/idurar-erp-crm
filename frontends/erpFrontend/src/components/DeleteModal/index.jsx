@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react';
 import { Modal } from 'antd';
 
 import { useDispatch, useSelector } from 'react-redux';
-import { crud } from '@/redux/crud/actions';
-import { useCrudContext } from '@/context/crud';
-import { selectDeletedItem } from '@/redux/crud/selectors';
-import { valueByString } from '@/utils/helpers';
+import { crud } from '../../redux/crud/actions';
+import { useCrudContext } from '../../context/crud';
+import { selectDeletedItem } from '../../redux/crud/selectors';
+import { valueByString } from '../../utils/helpers';
 
 export default function DeleteModal({ config }) {
   let {

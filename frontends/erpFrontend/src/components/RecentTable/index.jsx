@@ -1,8 +1,8 @@
 import React from 'react';
 import { Dropdown, Menu, Table } from 'antd';
 
-import { request } from '@/request';
-import useFetch from '@/hooks/useFetch';
+import { request } from '../../request';
+import useFetch from '../../hooks/useFetch';
 
 import { EllipsisOutlined, EyeOutlined, EditOutlined, DeleteOutlined } from '@ant-design/icons';
 

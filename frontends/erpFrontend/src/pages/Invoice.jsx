@@ -1,8 +1,8 @@
 import React from 'react';
 import dayjs from 'dayjs';
 import { Tag } from 'antd';
-import InvoiceModule from '@/modules/InvoiceModule';
-import { useMoney } from '@/settings';
+import InvoiceModule from '../modules/InvoiceModule';
+import { useMoney } from '../settings';
 
 export default function Invoice() {
   const { moneyRowFormatter } = useMoney();

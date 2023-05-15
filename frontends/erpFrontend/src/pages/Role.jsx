@@ -1,7 +1,7 @@
 import React from 'react';
 
-import CrudModule from '@/modules/CrudModule';
-import RoleForm from '@/forms/ٌRoleForm';
+import CrudModule from '../modules/CrudModule';
+import RoleForm from '../forms/ٌRoleForm';
 
 export default function Role() {
   const entity = 'role';

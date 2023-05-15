@@ -1,9 +1,9 @@
 import React from 'react';
 import dayjs from 'dayjs';
 import { Form, Input, InputNumber } from 'antd';
-import { DatePicker } from '@/components/CustomAntd';
-import SelectAsync from '@/components/SelectAsync';
-import { useMoney } from '@/settings';
+import { DatePicker } from '../components/CustomAntd';
+import SelectAsync from '../components/SelectAsync';
+import { useMoney } from '../settings';
 export default function PaymentInvoiceForm({ maxAmount = null, isUpdateForm = false }) {
   const { TextArea } = Input;
   const money = useMoney();

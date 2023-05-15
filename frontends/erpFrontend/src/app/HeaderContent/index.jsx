@@ -10,11 +10,11 @@ import {
   LogoutOutlined,
   BellOutlined,
 } from '@ant-design/icons';
-import photo from '@/style/images/photo.png';
+import photo from '../../style/images/photo.png';
 
-import { logout } from '@/redux/auth/actions';
-import history from '@/utils/history';
-import uniqueId from '@/utils/uinqueId';
+import { logout } from '../../redux/auth/actions';
+import history from '../../utils/history';
+import uniqueId from '../../utils/uinqueId';
 
 export default function HeaderContent() {
   const dispatch = useDispatch();

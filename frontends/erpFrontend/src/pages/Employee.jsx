@@ -1,7 +1,7 @@
 import React from 'react';
 
-import CrudModule from '@/modules/CrudModule';
-import EmployeeForm from '@/forms/EmployeeForm';
+import CrudModule from '../modules/CrudModule';
+import EmployeeForm from '../forms/EmployeeForm';
 import dayjs from 'dayjs';
 export default function Employee() {
   const entity = 'employee';

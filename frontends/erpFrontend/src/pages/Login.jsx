@@ -4,16 +4,16 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Form, Input, Button, Space, Layout, Row, Col, Divider } from 'antd';
 import { Typography } from 'antd';
 
-import { login } from '@/redux/auth/actions';
-import { selectAuth } from '@/redux/auth/selectors';
-import LoginForm from '@/forms/LoginForm';
-import AuthLayout from '@/layout/AuthLayout';
+import { login } from '../redux/auth/actions';
+import { selectAuth } from '../redux/auth/selectors';
+import LoginForm from '../forms/LoginForm';
+import AuthLayout from '../layout/AuthLayout';
 
-import logo from '@/style/images/logo.png';
-import logo1 from '@/style/images/logo1.png';
-import logo2 from '@/style/images/logo2.png';
-import logo3 from '@/style/images/logo3.png';
-import logo4 from '@/style/images/logo4.png';
+import logo from '../style/images/logo.png';
+import logo1 from '../style/images/logo1.png';
+import logo2 from '../style/images/logo2.png';
+import logo3 from '../style/images/logo3.png';
+import logo4 from '../style/images/logo4.png';
 
 const { Content } = Layout;
 const { Title, Text } = Typography;

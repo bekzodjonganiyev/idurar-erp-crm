@@ -1,4 +1,4 @@
-import SelectAsync from '@/components/SelectAsync';
+import SelectAsync from '../components/SelectAsync';
 import { Form, Input } from 'antd';
 
 export default function AdminForm({ isUpdateForm = false }) {

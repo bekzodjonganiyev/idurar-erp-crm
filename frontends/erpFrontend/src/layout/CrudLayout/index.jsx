@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react';
 
 import DefaultLayout from '../DefaultLayout';
 
-import SidePanel from '@/components/SidePanel';
+import SidePanel from '../../components/SidePanel';
 import { Layout } from 'antd';
-import { useCrudContext } from '@/context/crud';
-import { useAppContext } from '@/context/appContext';
+import { useCrudContext } from '../../context/crud';
+import { useAppContext } from '../../context/appContext';
 
 const { Content } = Layout;
 

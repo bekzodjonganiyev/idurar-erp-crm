@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { useCrudContext } from '@/context/crud';
-import { useAppContext } from '@/context/appContext';
+import { useCrudContext } from '../../context/crud';
+import { useAppContext } from '../../context/appContext';
 import { Layout } from 'antd';
 import { MenuOutlined } from '@ant-design/icons';
 import CollapseBox from '../CollapseBox';

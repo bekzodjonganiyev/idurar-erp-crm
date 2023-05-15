@@ -2,7 +2,7 @@ import React from 'react';
 import currency from 'currency.js';
 import { useSelector } from 'react-redux';
 
-import { selectMoneyFormat } from '@/redux/settings/selectors';
+import { selectMoneyFormat } from '../redux/settings/selectors';
 
 const useMoney = () => {
   const { currencySymbol, currencyPosition, decimalSep, ThousandSep, centPrecision, zeroFormat } =

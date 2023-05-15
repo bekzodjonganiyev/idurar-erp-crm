@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Menu, Tabs, Button, Divider } from 'antd';
-import { SettingsLayout } from '@/layout';
+import { SettingsLayout } from '../../layout';
 
 import GeneralSettings from './GeneralSettings';
 import PaymentSettings from './PaymentSettings';

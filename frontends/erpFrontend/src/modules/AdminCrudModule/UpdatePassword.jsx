@@ -1,15 +1,15 @@
 import React, { useEffect } from 'react';
 
 import { useDispatch, useSelector } from 'react-redux';
-import { crud } from '@/redux/crud/actions';
-import { useCrudContext } from '@/context/crud';
-import { selectUpdatedItem } from '@/redux/crud/selectors';
+import { crud } from '../../redux/crud/actions';
+import { useCrudContext } from '../../context/crud';
+import { selectUpdatedItem } from '../../redux/crud/selectors';
 
 import { Button, Form, Input } from 'antd';
 
-import Loading from '@/components/Loading';
-import useOnFetch from '@/hooks/useOnFetch';
-import { request } from '@/request';
+import Loading from '../../components/Loading';
+import useOnFetch from '../../hooks/useOnFetch';
+import { request } from '../../request';
 
 export default function UpdatePassword({ config }) {
   const dispatch = useDispatch();

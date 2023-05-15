@@ -10,9 +10,9 @@ import Payment from './Payment';
 import Search from './SearchItem';
 
 import { useDispatch } from 'react-redux';
-import { erp } from '@/redux/erp/actions';
+import { erp } from '../../redux/erp/actions';
 
-import { useErpContext } from '@/context/erp';
+import { useErpContext } from '../../context/erp';
 
 const Visibility = ({ isVisible, children }) => {
   const show = isVisible ? { display: 'block', opacity: 1 } : { display: 'none', opacity: 0 };

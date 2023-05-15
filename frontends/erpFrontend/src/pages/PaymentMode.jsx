@@ -1,8 +1,8 @@
 import React from 'react';
 import { Switch } from 'antd';
 import { CloseOutlined, CheckOutlined } from '@ant-design/icons';
-import CrudModule from '@/modules/CrudModule';
-import PaymentModeForm from '@/forms/PaymentModeForm';
+import CrudModule from '../modules/CrudModule';
+import PaymentModeForm from '../forms/PaymentModeForm';
 
 export default function PaymentMode() {
   const entity = 'paymentMode';

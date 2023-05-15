@@ -2,8 +2,8 @@ import React from 'react';
 import dayjs from 'dayjs';
 import { Tag } from 'antd';
 
-import QuoteModule from '@/modules/QuoteModule';
-import { useMoney } from '@/settings';
+import QuoteModule from '../modules/QuoteModule';
+import { useMoney } from '../settings';
 
 export default function Quote() {
   const { moneyRowFormatter } = useMoney();

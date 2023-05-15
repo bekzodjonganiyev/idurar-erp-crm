@@ -5,15 +5,15 @@ import { Button, PageHeader, Row, Col, Descriptions, Statistic, Tag } from 'antd
 import { EditOutlined, FilePdfOutlined, CloseCircleOutlined } from '@ant-design/icons';
 
 import { useSelector, useDispatch } from 'react-redux';
-import { erp } from '@/redux/erp/actions';
+import { erp } from '../../redux/erp/actions';
 
-import { useErpContext } from '@/context/erp';
-import uniqueId from '@/utils/uinqueId';
+import { useErpContext } from '../../context/erp';
+import uniqueId from '../../utils/uinqueId';
 
-import { selectCurrentItem } from '@/redux/erp/selectors';
+import { selectCurrentItem } from '../../redux/erp/selectors';
 
-import { DOWNLOAD_BASE_URL } from '@/config/serverApiConfig';
-import { useMoney } from '@/settings';
+import { DOWNLOAD_BASE_URL } from '../../config/serverApiConfig';
+import { useMoney } from '../../settings';
 
 const Item = ({ item }) => {
   const { moneyFormatter } = useMoney();

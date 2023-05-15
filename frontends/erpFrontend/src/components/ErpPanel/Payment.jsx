@@ -6,11 +6,11 @@ import { FileTextOutlined, CloseCircleOutlined } from '@ant-design/icons';
 
 import { useSelector, useDispatch } from 'react-redux';
 
-import { useErpContext } from '@/context/erp';
-import uniqueId from '@/utils/uinqueId';
+import { useErpContext } from '../../context/erp';
+import uniqueId from '../../utils/uinqueId';
 
-import { selectRecordPaymentItem } from '@/redux/erp/selectors';
-import { useMoney } from '@/settings';
+import { selectRecordPaymentItem } from '../../redux/erp/selectors';
+import { useMoney } from '../../settings';
 
 import RecordPayment from './RecordPayment';
 

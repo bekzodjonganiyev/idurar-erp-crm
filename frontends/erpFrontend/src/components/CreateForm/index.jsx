@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
 
 import { useDispatch, useSelector } from 'react-redux';
-import { crud } from '@/redux/crud/actions';
-import { useCrudContext } from '@/context/crud';
-import { selectCreatedItem } from '@/redux/crud/selectors';
+import { crud } from '../../redux/crud/actions';
+import { useCrudContext } from '../../context/crud';
+import { selectCreatedItem } from '../../redux/crud/selectors';
 
 import { Button, Form } from 'antd';
-import Loading from '@/components/Loading';
+import Loading from '../../components/Loading';
 
 export default function CreateForm({ config, formElements }) {
   let { entity } = config;

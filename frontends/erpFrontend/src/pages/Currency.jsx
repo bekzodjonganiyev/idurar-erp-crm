@@ -1,8 +1,8 @@
 import React from 'react';
 import { Switch } from 'antd';
 import { CloseOutlined, CheckOutlined } from '@ant-design/icons';
-import CrudModule from '@/modules/CrudModule';
-import CurrencyForm from '@/forms/CurrencyForm';
+import CrudModule from '../modules/CrudModule';
+import CurrencyForm from '../forms/CurrencyForm';
 
 export default function Currency() {
   const entity = 'currency';

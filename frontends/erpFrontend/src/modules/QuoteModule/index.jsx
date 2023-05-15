@@ -1,5 +1,5 @@
-import { ErpLayout } from '@/layout';
-import ErpPanel from '@/components/ErpPanel';
+import { ErpLayout } from '../../layout';
+import ErpPanel from '../../components/ErpPanel';
 import QuoteForm from './QuoteForm';
 import DataTableDropMenu from './DataTableDropMenu';
 

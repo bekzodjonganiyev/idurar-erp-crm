@@ -5,8 +5,8 @@ import { Layout, Breadcrumb, Statistic, Progress, Tag } from 'antd';
 
 import { ArrowUpOutlined, ArrowDownOutlined } from '@ant-design/icons';
 
-import { DashboardLayout } from '@/layout';
-import RecentTable from '@/components/RecentTable';
+import { DashboardLayout } from '../layout';
+import RecentTable from '../components/RecentTable';
 
 const TopCard = ({ title, tagContent, tagColor, prefix }) => {
   return (

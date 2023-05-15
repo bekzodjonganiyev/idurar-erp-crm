@@ -2,9 +2,9 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Layout, Menu } from 'antd';
 
-import { useAppContext } from '@/context/appContext';
-import logoIcon from '@/style/images/logo-icon.png';
-import logoText from '@/style/images/logo-text.png';
+import { useAppContext } from '../../context/appContext';
+import logoIcon from '../../style/images/logo-icon.png';
+import logoText from '../../style/images/logo-text.png';
 
 import {
   DesktopOutlined,

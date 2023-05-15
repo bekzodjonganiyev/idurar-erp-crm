@@ -3,11 +3,11 @@ import dayjs from 'dayjs';
 import { Form, Input, InputNumber, Button, Select, Divider, Row, Col } from 'antd';
 
 import { PlusOutlined } from '@ant-design/icons';
-import { DatePicker } from '@/components/CustomAntd';
+import { DatePicker } from '../../components/CustomAntd';
 
-import AutoCompleteAsync from '@/components/AutoCompleteAsync';
-import ItemRow from '@/components/ErpPanel/ItemRow';
-import MoneyInputFormItem from '@/components/MoneyInputFormItem';
+import AutoCompleteAsync from '../../components/AutoCompleteAsync';
+import ItemRow from '../../components/ErpPanel/ItemRow';
+import MoneyInputFormItem from '../../components/MoneyInputFormItem';
 
 export default function QuoteForm({ subTotal = 0, current = null }) {
   const [total, setTotal] = useState(0);

@@ -3,10 +3,10 @@ import { Dropdown, Button, PageHeader, Table, Col } from 'antd';
 
 import { EllipsisOutlined } from '@ant-design/icons';
 import { useSelector, useDispatch } from 'react-redux';
-import { crud } from '@/redux/crud/actions';
-import { selectListItems } from '@/redux/crud/selectors';
+import { crud } from '../../redux/crud/actions';
+import { selectListItems } from '../../redux/crud/selectors';
 
-import uniqueId from '@/utils/uinqueId';
+import uniqueId from '../../utils/uinqueId';
 
 export default function DataTable({ config, DropDownRowMenu, AddNewItem }) {
   let { entity, dataTableColumns, dataTableTitle } = config;

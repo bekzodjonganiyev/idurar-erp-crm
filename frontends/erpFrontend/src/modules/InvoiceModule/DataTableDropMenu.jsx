@@ -8,12 +8,12 @@ import {
   CreditCardOutlined,
 } from '@ant-design/icons';
 import { useSelector, useDispatch } from 'react-redux';
-import { erp } from '@/redux/erp/actions';
-import { selectListItems, selectItemById } from '@/redux/erp/selectors';
-import { useErpContext } from '@/context/erp';
+import { erp } from '../../redux/erp/actions';
+import { selectListItems, selectItemById } from '../../redux/erp/selectors';
+import { useErpContext } from '../../context/erp';
 
-import { DOWNLOAD_BASE_URL } from '@/config/serverApiConfig';
-import uniqueId from '@/utils/uinqueId';
+import { DOWNLOAD_BASE_URL } from '../../config/serverApiConfig';
+import uniqueId from '../../utils/uinqueId';
 
 export default function DataTableDropMenu({ row, entity }) {
   const dispatch = useDispatch();

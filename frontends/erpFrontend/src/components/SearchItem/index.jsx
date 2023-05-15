@@ -5,10 +5,10 @@ import { Select, Empty } from 'antd';
 
 import { SearchOutlined } from '@ant-design/icons';
 import { useSelector, useDispatch } from 'react-redux';
-import { crud } from '@/redux/crud/actions';
+import { crud } from '../../redux/crud/actions';
 
-import { useCrudContext } from '@/context/crud';
-import { selectSearchedItems } from '@/redux/crud/selectors';
+import { useCrudContext } from '../../context/crud';
+import { selectSearchedItems } from '../../redux/crud/selectors';
 
 function SearchItemComponent({ config, onRerender }) {
   let { entity, searchConfig } = config;

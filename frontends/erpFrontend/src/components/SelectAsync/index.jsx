@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { request } from '@/request';
-import useFetch from '@/hooks/useFetch';
+import { request } from '../../request';
+import useFetch from '../../hooks/useFetch';
 import { Select } from 'antd';
 
 export default function SelectAsync({

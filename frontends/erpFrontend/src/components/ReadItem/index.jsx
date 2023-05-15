@@ -4,9 +4,9 @@ import { useSelector } from 'react-redux';
 
 import dayjs from 'dayjs';
 
-import { useCrudContext } from '@/context/crud';
-import { selectCurrentItem } from '@/redux/crud/selectors';
-import { valueByString } from '@/utils/helpers';
+import { useCrudContext } from '../../context/crud';
+import { selectCurrentItem } from '../../redux/crud/selectors';
+import { valueByString } from '../../utils/helpers';
 
 export default function ReadItem({ config }) {
   let { readColumns } = config;

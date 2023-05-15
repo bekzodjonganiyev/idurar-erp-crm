@@ -4,13 +4,13 @@ import { Form, Divider } from 'antd';
 import { Button, PageHeader, Row, Statistic, Tag } from 'antd';
 
 import { useSelector, useDispatch } from 'react-redux';
-import { erp } from '@/redux/erp/actions';
-import { selectCreatedItem } from '@/redux/erp/selectors';
+import { erp } from '../../redux/erp/actions';
+import { selectCreatedItem } from '../../redux/erp/selectors';
 
-import { useErpContext } from '@/context/erp';
-import uniqueId from '@/utils/uinqueId';
+import { useErpContext } from '../../context/erp';
+import uniqueId from '../../utils/uinqueId';
 
-import Loading from '@/components/Loading';
+import Loading from '../../components/Loading';
 import { CloseCircleOutlined, PlusOutlined } from '@ant-design/icons';
 
 function SaveForm({ form, config }) {

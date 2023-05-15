@@ -3,11 +3,11 @@ import React from 'react';
 import { Button, Menu } from 'antd';
 import { EyeOutlined, EditOutlined, LockOutlined, DeleteOutlined } from '@ant-design/icons';
 import { useSelector, useDispatch } from 'react-redux';
-import { crud } from '@/redux/crud/actions';
-import { selectItemById } from '@/redux/crud/selectors';
-import { useCrudContext } from '@/context/crud';
-import uniqueId from '@/utils/uinqueId';
-import DataTable from '@/components/DataTable';
+import { crud } from '../../redux/crud/actions';
+import { selectItemById } from '../../redux/crud/selectors';
+import { useCrudContext } from '../../context/crud';
+import uniqueId from '../../utils/uinqueId';
+import DataTable from '../../components/DataTable';
 
 function AddNewItem({ config }) {
   const { crudContextAction } = useCrudContext();

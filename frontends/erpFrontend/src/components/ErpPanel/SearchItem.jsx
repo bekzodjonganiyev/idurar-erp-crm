@@ -3,10 +3,10 @@ import React, { useEffect, useState, useRef } from 'react';
 import { AutoComplete, Input } from 'antd';
 import { SearchOutlined } from '@ant-design/icons';
 import { useSelector, useDispatch } from 'react-redux';
-import { erp } from '@/redux/erp/actions';
-import { request } from '@/request';
-import { useErpContext } from '@/context/erp';
-import { selectSearchedItems } from '@/redux/erp/selectors';
+import { erp } from '../../redux/erp/actions';
+import { request } from '../../request';
+import { useErpContext } from '../../context/erp';
+import { selectSearchedItems } from '../../redux/erp/selectors';
 
 import { Empty } from 'antd';
 

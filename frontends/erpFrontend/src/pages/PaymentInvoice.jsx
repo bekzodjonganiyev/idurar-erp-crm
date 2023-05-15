@@ -1,6 +1,6 @@
 import React from 'react';
-import CrudModule from '@/modules/CrudModule';
-import PaymentInvoiceForm from '@/forms/PaymentInvoiceForm';
+import CrudModule from '../modules/CrudModule';
+import PaymentInvoiceForm from '../forms/PaymentInvoiceForm';
 
 import dayjs from 'dayjs';
 

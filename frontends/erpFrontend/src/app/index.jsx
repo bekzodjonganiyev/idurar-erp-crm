@@ -1,16 +1,16 @@
 import React, { useEffect } from 'react';
 
-import Router from '@/router';
+import Router from '../router';
 
-import useNetwork from '@/hooks/useNetwork';
+import useNetwork from '../hooks/useNetwork';
 
 import { Layout, notification } from 'antd';
 
-import Navigation from '@/app/Navigation';
+import Navigation from '../app/Navigation';
 
 import { useSelector } from 'react-redux';
-import { selectAuth } from '@/redux/auth/selectors';
-import HeaderContent from '@/app/HeaderContent';
+import { selectAuth } from '../redux/auth/selectors';
+import HeaderContent from '../app/HeaderContent';
 // import { useNetworkState } from "react-use";
 
 function App() {
